@@ -60,6 +60,10 @@ html, body {
     margin: 0 auto;
 }
 
+.section-cities .row {
+    margin: 0;
+}
+
 .clearfix { zoom: 1 }
 .clearfix:after {
     content: '.';
@@ -415,13 +419,18 @@ section {
 .section-cities img {
     width: 100%;
     height: auto;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    text-align: center;
     -webkit-box-shadow: 0 1.5px 15px rgb(180, 180, 180);
             box-shadow: 0 1.5px 15px rgb(180, 180, 180);
 }
 
 .city-feature {
     margin-bottom: 5px;
+}
+
+.city-feature:last-child {
+    margin-bottom: 15px;
 }
 
 .section-cities p {
