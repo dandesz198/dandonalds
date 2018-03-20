@@ -89,9 +89,15 @@
         width: 100%;
         text-align: center;
         z-index: 9999;
+        margin: 0;
+        padding: 0;
     }
 
-    .main-nav li { display: block; }
+    .main-nav li { 
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
 
     .main-nav li a:link,
     .main-nav li a:visited {
@@ -104,11 +110,6 @@
     .main-nav a:hover,
     .main-nav a:visited {
         border: 0;
-    }
-
-    .sticky .main-nav li:first-child {
-        margin-top: 0;
-        padding-top: 0;
     }
 
     .sticky .main-nav { 
@@ -146,5 +147,10 @@
     .contact-form { 
         width: 95%;
         margin-left: 1.25%;
-     }
+    }
+
+    .logo {
+        width: 25%;
+        height: auto;
+    }
 }
