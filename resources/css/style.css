@@ -17,6 +17,7 @@
             STICKY
             MOBILE
     SECTIONS
+        ATTENTION
         MEALS
         STEPS
         CITIES
@@ -301,6 +302,12 @@ header {
 
 section {
     padding: 80px 0px 80px 0px;
+}
+
+/* --- ATTENTION --- */
+
+.section-attention {
+    padding: 0;
 }
 
 /* --- MEALS --- */
