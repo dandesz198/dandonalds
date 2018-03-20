@@ -198,6 +198,7 @@ header {
     background-position: center;
     /*background-attachment: fixed;*/
     height: 100vh;
+    position: relative;
 }
 
 .hero-text-box {
@@ -215,9 +216,7 @@ header {
     height: 100px;
     width: auto;
     float: left;
-    margin-top: 5vh;
-    margin-left: 5%;
-    display: block;
+    margin-top: 20px;
 }
 
 .logo-black { 
