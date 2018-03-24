@@ -23,7 +23,7 @@
         CITIES
         TESTIMONIALS
         PLANS
-        FORMS
+        CONTACT FORM
     BUTTONS
     FOOTER
     ON-SCROLL ANIMATIONS
@@ -540,7 +540,7 @@ cite img {
     font-size: 80%;
 }
 
-/* --- FORMS --- */
+/* --- CONTACT FORM --- */
 
 .contact-form {
     width: 60%;
